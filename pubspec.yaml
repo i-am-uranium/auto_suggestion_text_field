@@ -1,9 +1,9 @@
 name: auto_suggestion_text_field
-description: Auto Suggestion TextField.
-version: 0.0.1+1
+description: Auto Suggestion TextField with support for customization. it can be use on iOS and android.
+version: 0.1.1
 author: Ravi Ranjan <devbytes1024@gmail.com>
 email:  devbytes1024@gmail.com
-homepage: https://github.com/i-am-uranium/auto_suggestion_example
+homepage: https://github.com/i-am-uranium/auto_suggestion_text_field
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -11,12 +11,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  rxdart: ^0.18.1
+  rxdart: ^0.22.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
 flutter:
-
-  
+  uses-material-design: true
