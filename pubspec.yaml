@@ -1,0 +1,22 @@
+name: auto_suggestion_text_field
+description: Auto Suggestion TextField.
+version: 0.0.1+1
+author: Ravi Ranjan <devbytes1024@gmail.com>
+email:  devbytes1024@gmail.com
+homepage: https://github.com/i-am-uranium/auto_suggestion_example
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  rxdart: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  
